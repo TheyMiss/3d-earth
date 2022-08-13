@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Poppins";
+  background-color: rgb(0, 0, 0);
+}
+
+.sphere {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}

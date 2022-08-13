@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "scripts": {
     "start": "webpack serve",
-    "start:open": "webpack serve --open",
+    "dev": "webpack serve --open",
     "build": "webpack --mode=production",
     "lint": "eslint \"**/*.ts\""
   },
   "dependencies": {
+    "@types/dat.gui": "^0.7.7",
+    "axios": "^0.27.2",
+    "dat.gui": "^0.7.9",
     "three": "~0.140.2"
   },
   "devDependencies": {
